@@ -1,0 +1,93 @@
+.bar {
+    padding: 5px;
+    text-align: right;
+
+}
+
+.butn{
+
+    width:300px;
+    background-color:#4d90fe;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid #3079ed;
+}
+
+.butn:hover{
+    background-color:#4787ed;
+}
+
+
+td {
+    padding: 5px;
+    font-size: 18px;
+}
+
+td input  {
+    width: 400px;
+}
+
+
+.route{
+    color:black;
+}
+.title
+{
+    /* size for brand */
+    font-size: 60px;
+}
+
+.title:hover{
+    text-decoration: none;
+}
+
+/* colors for brand */
+.blue
+{
+    color: #537fbe;
+    font-family: 'Product Sans';
+    font-weight: bold;
+}
+.red
+{
+    color: #ea433b;
+    font-family: 'Product Sans';
+    font-weight: bold;
+}
+.yellow
+{
+    color: #f5b82e;
+    font-family: 'Product Sans';
+    font-weight: bold;
+}
+.green
+{
+    color: #2e944b;
+    font-family: 'Product Sans';
+    font-weight: bold;
+}
+
+main .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main
+{
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* center contents */
+    text-align: center;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
